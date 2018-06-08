@@ -1,0 +1,34 @@
+section {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+mat-card {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.footer, mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* editing */
+#text {
+  width: 100%;
+}
+
+#chapter {
+  width: 90px;
+}
+
+#page {
+  width: 30px;
+}
+
+textarea {
+  height: 100px;
+}

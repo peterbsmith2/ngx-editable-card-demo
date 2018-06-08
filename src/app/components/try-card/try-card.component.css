@@ -1,0 +1,25 @@
+section {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+mat-card {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+::ng-deep arg-editable-try-card .mat-card-header-text {
+  display: none !important;
+}
+
+.footer, mat-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* editing */
+mat-form-field {
+  width: 100%;
+}

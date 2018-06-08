@@ -1,0 +1,4 @@
+<pop-try-card [try]="try" (edit)="edit.emit()" (refresh)="refresh.emit()" *ngIf="!editing; else editForm"></pop-try-card>
+<ng-template #editForm>
+  <pop-try-card-form [try]="try" (cancel)="edit.emit()" (save)="save.emit($event)" ></pop-try-card-form>
+</ng-template>
